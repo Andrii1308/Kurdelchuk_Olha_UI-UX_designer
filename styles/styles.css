@@ -1,7 +1,7 @@
 :root{
-    --sidebar-bgc: #d2f5de; /* #E0EBFE */
-    --first-text-color: #20b953; /* #6D9BF5 */
-    --project-link-color: #03da4b;/* #005FFF */
+    --sidebar-bgc: #f8e3ec; 
+    --first-text-color: #e83985; 
+    --project-link-color: #ff197d;
 }
 
 body {
@@ -136,6 +136,7 @@ body {
     line-height: 20px;
     color: ;
     margin: 0;
+    color: var(--first-text-color);
 }
 
 .work-period {
@@ -249,7 +250,7 @@ body {
     color: #161D2A;
 }
 
-/* .contacts-email{
+.contacts-email{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -257,10 +258,10 @@ body {
     color: #2979FF;   
 } */
 
-/* .contacts-linkedin {
+.contacts-linkedin {
     text-decoration: none;
     color: #2979FF;
-} */
+}
 
 .skills-list{
     padding: 0 0 0 24px;
