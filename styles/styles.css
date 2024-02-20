@@ -30,7 +30,7 @@ body {
 .my-profession {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
     color: #000000;
     margin: 0 0 20px 0;
@@ -48,10 +48,10 @@ body {
 .my-description {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #595959;
-    width: 525px;
+    text-align:justify;
 }
 
 .main-content-title {
@@ -72,8 +72,9 @@ body {
 }
 
 .project-list{
-    padding: 0 0 0 16px;
+    padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 .project-container{
@@ -83,7 +84,7 @@ body {
 .project-item-descr {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #595959;
 }
@@ -91,28 +92,19 @@ body {
 .project-link {
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     text-decoration-line: none;
     color: var(--first-text-color);
 }
 
-.project-git-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration-line: underline;
-    color: var(--project-link-color);
-}
-
 .project-descr {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #595959;
-    /* width: 525px; */
+    text-align: justify;
 }
 
 .work-experience-container{
@@ -141,10 +133,10 @@ body {
 
 .work-period {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 12px;
     line-height: 15px;
-    color: #A8A8A8;
+    color: #595959;
     margin: 12px 0 8px 0;
 }
 
@@ -155,9 +147,10 @@ body {
 .work-duties {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #595959;
+    text-align: justify;
 }
 
 .work-duties-list{
@@ -184,7 +177,7 @@ body {
 .faculty {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
     color: #000000;
     margin-bottom: 12px;
@@ -231,7 +224,7 @@ body {
 .contacts-type {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #161D2A;
     margin-right: 8px;
@@ -245,7 +238,7 @@ body {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #161D2A;
 }
@@ -253,7 +246,7 @@ body {
 .contacts-email{
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #2979FF;   
 } */
@@ -275,7 +268,7 @@ body {
 .skills-list-text {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #161D2A;
 }
